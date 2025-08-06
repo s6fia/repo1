@@ -38,6 +38,18 @@ const targetDate = new Date("2025-10-17T23:59:59").getTime();
     });
   });
 
+    window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    const images = document.querySelectorAll('.imagen2');
+
+    images.forEach((img) => {
+      const rect = img.getBoundingClientRect();
+      const offset = rect.top * 0.2; // ajustá el factor para más o menos movimiento
+      img.style.transform = `translateY(${offset}px)`;
+    });
+  });
+
+
 function toggleCBU() {
     const contenido = document.getElementById('contenido-cbu');
     if (contenido.style.maxHeight) {
