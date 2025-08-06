@@ -88,11 +88,11 @@ h1, h2 {
 }
 
 .texto-imagen {
-  top: 35%;
+  top: 44%;
 }
 
 .texto-imagen2 {
-  top: 45%;
+  top: 50%;
 }
 
 .texto-imagen3 {
@@ -129,7 +129,6 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
 }
 
 .icono-ubicacion {
@@ -145,14 +144,19 @@ h1, h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 2.5rem;
   color: #330000;
-  margin-bottom: 0.3em;
+  margin-bottom: 0;
   margin-top: 0;
 }
 
 .lugar {
   font-size: 1.2rem;
   color: #800000;
-  margin-bottom: 0.8em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.direccion {
+  margin-top: 0;
 }
 
 .boton-ubicacion {
@@ -181,7 +185,6 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
 }
 
 .icono-vestimenta {
@@ -197,7 +200,7 @@ h1, h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 2.5rem;
   color: #330000;
-  margin-bottom: 0.3em;
+  margin-bottom: 0;
   margin-top: 0;
 }
 
@@ -205,6 +208,7 @@ h1, h2 {
   font-size: 1.2rem;
   color: #800000;
   margin-bottom: 0.8em;
+  margin-top: 0;
 }
 
 #section3 {
@@ -224,7 +228,6 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
 }
 
 .asistencia-texto {
@@ -277,19 +280,19 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
 }
 
 .regalo-texto {
   text-align: center;
   color: #f2cccc;
+  margin-top: 0;
 }
 
 .titulo-regalo {
   font-family: 'Great Vibes', cursive;
   font-size: 2.5rem;
   color: #f8e6e6;
-  margin-bottom: 0.3em;
+  margin-bottom: 0;
   margin-top: 0;
   
 }
