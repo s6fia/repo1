@@ -74,3 +74,16 @@ const audio = document.getElementById("musica");
       icon.alt = "Play";
     }
   });
+
+  document.addEventListener('DOMContentLoaded', function () {
+  const audio = document.getElementById('miAudio');
+
+  function iniciarAudio() {
+    audio.play();
+    document.removeEventListener('click', iniciarAudio);
+    document.removeEventListener('touchstart', iniciarAudio);
+  }
+
+  document.addEventListener('click', iniciarAudio);
+  document.addEventListener('touchstart', iniciarAudio);
+});
