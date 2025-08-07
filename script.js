@@ -58,3 +58,19 @@ function toggleCBU() {
       contenido.style.maxHeight = contenido.scrollHeight + "px";
     }
   }
+
+const audio = document.getElementById("musica");
+  const button = document.getElementById("playPauseButton");
+  const icon = document.getElementById("playPauseIcon");
+
+  button.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      icon.src = "img/pausa.png";
+      icon.alt = "Pause";
+    } else {
+      audio.pause();
+      icon.src = "img/jugar.png";
+      icon.alt = "Play";
+    }
+  });
