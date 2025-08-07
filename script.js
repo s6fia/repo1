@@ -76,7 +76,7 @@ const audio = document.getElementById("musica");
   });
 
   document.addEventListener('DOMContentLoaded', function () {
-  const audio = document.getElementById('miAudio');
+  const audio = document.getElementById('musica');
 
   function iniciarAudio() {
     audio.play();
