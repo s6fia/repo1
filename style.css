@@ -100,7 +100,7 @@ h1, h2 {
 }
 
 #section1 {
-    background-color: #800000;
+    background-color: #330000;
     color: #f8e6e6;
     font-family: 'Great Vibes', cursive;
     display: flex;
@@ -156,6 +156,11 @@ h1, h2 {
 }
 
 .direccion {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.horario {
   margin-top: 0;
 }
 
@@ -226,7 +231,7 @@ h1, h2 {
 }
 
 #section3 {
-  background-color: #800000;
+  background-color: #330000;
   padding: 2em;
   text-align: center;
   font-family: 'Playfair Display', serif;
@@ -278,7 +283,7 @@ h1, h2 {
 }
 
 #section5 {
-  background-color: #800000;
+  background-color: #330000;
   padding: 2em;
   text-align: center;
   font-family: 'Playfair Display', serif;
