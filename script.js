@@ -93,3 +93,16 @@ document.addEventListener('DOMContentLoaded', function () {
   document.addEventListener('click', iniciarAudio);
   document.addEventListener('touchstart', iniciarAudio);
 });
+
+function copiarTexto(texto) {
+  navigator.clipboard.writeText(texto).then(() => {
+    const mensaje = document.getElementById('mensaje-copiado');
+    mensaje.style.display = 'block';
+
+    setTimeout(() => {
+      mensaje.style.display = 'none';
+    }, 2000); // Oculta el mensaje a los 2 segundos
+  }).catch(err => {
+    console.error('Error al copiar: ', err);
+  });
+}

@@ -433,6 +433,17 @@ h1, h2 {
   margin: 10px 0;
 }
 
+.copiable {
+  cursor: pointer;
+  color: #800000;
+  text-decoration: underline dotted;
+  transition: color 0.3s ease;
+}
+
+.copiable:hover {
+  color: #b30000;
+}
+
 
 #section6 {
   background-color: #f8e6e6;

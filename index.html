@@ -91,8 +91,17 @@
              pero si quieres tener un detalle conmigo te doy algunas ideas</p>
         <button class="boton-toggle" onclick="toggleCBU()">Ver número de cuenta</button>
         <div id="contenido-cbu" class="contenido-cbu">
-    <p>CBU: 0000003100012345678901</p>
+          <p>
+       <strong>CBU:</strong>
+    <span class="copiable" onclick="copiarTexto('0000003100012345678901')">0000003100012345678901</span>
+    </p><p>
+    <strong>Alias:</strong>
+    <span class="copiable" onclick="copiarTexto('ejemplo.alias.mp')">ejemplo.alias.mp</span>
+  </p>
+  <p id="mensaje-copiado" style="display: none;">¡Copiado!</p>
   </div>
+
+
     </div>
 </section>
 
