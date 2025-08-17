@@ -87,3 +87,16 @@ const audio = document.getElementById("musica");
   document.addEventListener('click', iniciarAudio);
   document.addEventListener('touchstart', iniciarAudio);
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const bienvenida = document.getElementById('pantalla-bienvenida');
+  const botonIngresar = document.getElementById('boton-ingresar');
+  const audio = document.getElementById('musica');
+
+  botonIngresar.addEventListener('click', function () {
+    bienvenida.style.display = 'none';
+    audio.play().catch(e => {
+      console.log("El navegador bloqueó el autoplay hasta una interacción.");
+    });
+  });
+});

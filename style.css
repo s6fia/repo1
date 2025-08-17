@@ -18,6 +18,58 @@ h1, h2 {
   background-color: #990000;
 }
 
+.bienvenida {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f2cccc;
+  color: #330000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  flex-direction: column;
+}
+
+.bienvenida-contenido {
+  padding: 2em;
+  background: #fff0f0;
+  border-radius: 0px;
+  box-shadow: 0 0 40px rgba(77, 1, 17, 0.349);
+}
+
+.bienvenida h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.bienvenida p {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  margin-top: 0;
+  color: #800000;
+  font-family: 'Playfair Display', serif;
+}
+
+#boton-ingresar {
+  background-color: #d96666;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+}
+
+#boton-ingresar:hover {
+  background-color: #FF9494;
+}
+
 #countdown {
   position: absolute;
   top: 50%;
@@ -271,8 +323,8 @@ h1, h2 {
 .boton-asistencia {
   display: inline-block;
   padding: 0.5em 1em;
-  background-color: #d96666;
-  color: #990000;
+  background-color: #f2cccc;
+  color: #800000;
   text-decoration: none;
   transition: background-color 0.3s ease;
   font-size: 0.8rem;
@@ -324,8 +376,8 @@ h1, h2 {
 .boton-toggle {
   display: inline-block;
   padding: 0.5em 1em;
-  background-color: #d96666;
-  color: #990000;
+  background-color: #f2cccc;
+  color: #800000;
   text-decoration: none;
   transition: background-color 0.3s ease;
   font-family: 'Playfair Display', serif;
@@ -341,7 +393,7 @@ h1, h2 {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  background-color: #d96666;
+  background-color: #FF9494;
   margin-top: 10px;
   padding: 0 15px;
 }
@@ -349,6 +401,7 @@ h1, h2 {
 .contenido-cbu p {
   margin: 10px 0;
 }
+
 
 #section6 {
   background-color: #f8e6e6;
