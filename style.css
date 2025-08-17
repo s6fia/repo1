@@ -66,6 +66,7 @@ h1, h2 {
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Playfair Display', serif;
+  box-shadow: 0 0 40px rgba(77, 1, 17, 0.349);
 }
 
 #boton-ingresar:hover {
