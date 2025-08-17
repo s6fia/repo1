@@ -37,9 +37,11 @@ h1, h2 {
 
 .bienvenida-contenido {
   padding: 2em;
+  margin: 3em;
   background: #fff0f0;
   border-radius: 0px;
   box-shadow: 0 0 40px rgba(77, 1, 17, 0.349);
+  animation: fadeSlideIn 1.2s ease-out;
 }
 
 .bienvenida h1 {
@@ -56,19 +58,43 @@ h1, h2 {
 }
 
 #boton-ingresar {
-  background-color: #d96666;
-  color: #fff;
-  font-size: 1rem;
-  padding: 0.5em 1.5em;
+  background-color: #800000;
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding: 0.5em 1em;
   border: none;
-  border-radius: 0;
   cursor: pointer;
+  transition: background-color 0.3s ease;
   font-family: 'Playfair Display', serif;
 }
 
 #boton-ingresar:hover {
-  background-color: #FF9494;
+  background-color: #990000;
 }
+
+.bienvenida.ocultar {
+  animation: fadeSlideOut 0.8s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideOut {
+  to {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+
+/* */
 
 #countdown {
   position: absolute;
