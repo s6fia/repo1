@@ -66,7 +66,7 @@ h1, h2 {
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Playfair Display', serif;
-  box-shadow: 0 0 5px rgba(77, 1, 17, 0.349);
+  box-shadow: 0 0 9px rgba(77, 1, 17, 0.349);
 }
 
 #boton-ingresar:hover {
@@ -251,6 +251,7 @@ h1, h2 {
   text-decoration: none;
   transition: background-color 0.3s ease;
   font-size: 0.8rem;
+  box-shadow: 0 0 9px rgba(77, 1, 17, 0.349);
 }
 
 .boton-ubicacion:hover {
@@ -355,6 +356,7 @@ h1, h2 {
   text-decoration: none;
   transition: background-color 0.3s ease;
   font-size: 0.8rem;
+  box-shadow: 0 0 9px rgba(255, 202, 214, 0.349);
 }
 
 .boton-asistencia:hover {
@@ -410,6 +412,7 @@ h1, h2 {
   font-family: 'Playfair Display', serif;
   font-size: 0.8rem;
   border: none;
+  box-shadow: 0 0 9px rgba(255, 202, 214, 0.349);
 }
 
 .boton-toggle:hover {
@@ -423,6 +426,7 @@ h1, h2 {
   background-color: #FF9494;
   margin-top: 10px;
   padding: 0 15px;
+  box-shadow: 0 0 9px rgba(255, 202, 214, 0.349);
 }
 
 .contenido-cbu p {
