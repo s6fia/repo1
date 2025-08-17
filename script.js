@@ -97,11 +97,15 @@ document.addEventListener('DOMContentLoaded', function () {
 function copiarTexto(texto) {
   navigator.clipboard.writeText(texto).then(() => {
     const mensaje = document.getElementById('mensaje-copiado');
+
     mensaje.style.display = 'block';
+    mensaje.style.animation = 'none';
+    void mensaje.offsetWidth;
+    mensaje.style.animation = 'fadeInOut 2s ease forwards';
 
     setTimeout(() => {
       mensaje.style.display = 'none';
-    }, 2000); // Oculta el mensaje a los 2 segundos
+    }, 2000);
   }).catch(err => {
     console.error('Error al copiar: ', err);
   });

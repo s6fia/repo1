@@ -436,7 +436,6 @@ h1, h2 {
 .copiable {
   cursor: pointer;
   color: #800000;
-  text-decoration: underline dotted;
   transition: color 0.3s ease;
 }
 
@@ -444,6 +443,26 @@ h1, h2 {
   color: #b30000;
 }
 
+.mensaje-copiado {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f2cccc;
+  color: #800000;
+  padding: 10px 20px;
+  font-size: 1rem;
+  z-index: 9999;
+  display: none;
+  box-shadow: 0 0 9px rgba(255, 202, 214, 0.349);
+}
+
+@keyframes fadeInOut {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { opacity: 0; }
+}
 
 #section6 {
   background-color: #f8e6e6;
