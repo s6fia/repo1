@@ -93,16 +93,18 @@
         <div id="contenido-cbu" class="contenido-cbu">
           <p>
        <strong>CBU:</strong>
-    <span class="copiable" onclick="copiarTexto('0000003100020098561384')">0000003100020098561384</span>
-    </p>
-    <p>
-    <strong>Alias:</strong>
-    <span class="copiable" onclick="copiarTexto('ejemplo.alias.mp')">NairaSerrano.mp
-</span>
-  </p>
+        <span id="cbu">0000003100020098561384</span>
+        <button class="boton-copiar" onclick="copiarTexto('0000003100020098561384')">Copiar</button>
+      </p>
+      <p>
+        <strong>Alias:</strong>
+        <span id="alias">NairaSerrano.mp</span>
+        <button class="boton-copiar" onclick="copiarTexto('NairaSerrano.mp')">Copiar</button>
+      </p>
   </div>
     </div>
 </section>
+
 <section id="section4">
     <div class="codigo-vestimenta">
         <img src="img/2e2e2e-gris-oscuro-icono-20.gif" alt="icono vestimenta" class="icono-vestimenta">
@@ -143,7 +145,6 @@
 </button>
 
  <div id="mensaje-copiado" class="mensaje-copiado">¡Copiado!</div>
-
 
     <script src="script.js"></script>
 </body>

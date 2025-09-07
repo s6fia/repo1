@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2 {
-  color: #330000; /* Encabezados en color principal */
+  color: #330000;  /* Encabezados en color principal */
 }
 
 .button {
@@ -36,13 +36,15 @@ h1, h2 {
   margin: 3em;
   background: #fff0f0;
   border-radius: 0px;
-  box-shadow: 0 0 40px rgba(77, 1, 17, 0.349);
+  box-shadow: 0 0 50px rgba(182, 90, 110, 0.349);
   animation: fadeSlideIn 1.2s ease-out;
 }
 
 .bienvenida h1 {
   font-size: 2rem;
   margin-bottom: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 1;
 }
 
 .bienvenida p {
@@ -420,6 +422,20 @@ h1, h2 {
   transition: color 0.3s ease;
 }
 
+.boton-copiar {
+  margin-left: 10px;
+  padding: 0.3em 0.8em;
+  background-color: #330000;
+  color: #f2cccc;
+  border: none;
+  font-size: 0.6rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Playfair Display', serif;
+  box-shadow: 0 0 9px rgba(77, 1, 17, 0.349);
+
+}
 
 .mensaje-copiado {
   position: fixed;
